@@ -228,7 +228,7 @@ void SetSkinData()
 				if (sName == "") sName = "0";
 				chName = sName.c_str();
 				strcpy(Name[WeaponID_Previous!=WeaponID], chName);
-				cout<<"\n===================================================="<<endl;
+				cout<<"===================================================="<<endl;
 				cout<<"|| Skin data set. Returning to main menu...       ||"<<endl;
 				cout<<"===================================================="<<endl;
 				Sleep(1000);
